@@ -1,0 +1,14 @@
+NEON Anime Stream — Render checklist
+
+[ ] Extract the ZIP.
+[ ] Push the CONTENTS of the project folder to a GitHub repository.
+[ ] Render → New → Blueprint → connect the repository.
+[ ] Confirm Render detects render.yaml.
+[ ] Wait for build to finish.
+[ ] Open https://YOUR-RENDER-SERVICE.onrender.com/api/health
+[ ] Expected response: {"ok":true,"service":"neon-anime-stream","mode":"demo"}
+[ ] Open the root URL and test catalogue, search, series, episode and My List.
+
+If build fails, open Render → Events → latest deploy → View Logs.
+This starter uses demo content. A licensed/authorized media provider must be connected
+before showing real anime episodes.
